@@ -14,6 +14,7 @@
 		A52F1E7229C23DB6004896DC /* StackFunTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F1E7129C23DB6004896DC /* StackFunTests.swift */; };
 		A52F1E7C29C23DB6004896DC /* StackFunUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F1E7B29C23DB6004896DC /* StackFunUITests.swift */; };
 		A52F1E7E29C23DB6004896DC /* StackFunUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52F1E7D29C23DB6004896DC /* StackFunUITestsLaunchTests.swift */; };
+		A5D2DAA529C37E3A0029993B /* ViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5D2DAA429C37E3A0029993B /* ViewModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A52F1E7729C23DB6004896DC /* StackFunUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackFunUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52F1E7B29C23DB6004896DC /* StackFunUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFunUITests.swift; sourceTree = "<group>"; };
 		A52F1E7D29C23DB6004896DC /* StackFunUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackFunUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A5D2DAA429C37E3A0029993B /* ViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				A52F1E6029C23DB4004896DC /* StackFunApp.swift */,
 				A52F1E6229C23DB4004896DC /* ContentView.swift */,
+				A5D2DAA429C37E3A0029993B /* ViewModels.swift */,
 				A52F1E6429C23DB6004896DC /* Assets.xcassets */,
 				A52F1E6629C23DB6004896DC /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5D2DAA529C37E3A0029993B /* ViewModels.swift in Sources */,
 				A52F1E6329C23DB4004896DC /* ContentView.swift in Sources */,
 				A52F1E6129C23DB4004896DC /* StackFunApp.swift in Sources */,
 			);
